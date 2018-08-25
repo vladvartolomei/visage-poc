@@ -13,8 +13,6 @@ WORKDIR /home/elasticsearch
 
 ENV ES_TMPDIR=/home/elasticsearch/elasticsearch.tmp
 
-ADD kibana.yml kibana.yml
-
 RUN wget -q -O - https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-oss-${ek_version}.tar.gz \
  |  tar -zx \
  && mv elasticsearch-${ek_version} elasticsearch \
@@ -24,8 +22,7 @@ RUN wget -q -O - https://artifacts.elastic.co/downloads/elasticsearch/elasticsea
  && mv kibana-${ek_version}-linux-x86_64 kibana \
  && rm -f kibana/node/bin/node kibana/node/bin/npm \
  && ln -s $(which node) kibana/node/bin/node \
- && ln -s $(which npm) kibana/node/bin/npm \
- && yes | cp -rf kibana.yml kibana/config/kibana.yml
+ && ln -s $(which npm) kibana/node/bin/npm
 
 COPY conf/kibana/* kibana/config/
 COPY conf/elasticsearch/* elasticsearch/config/

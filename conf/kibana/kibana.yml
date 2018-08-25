@@ -93,7 +93,7 @@ elasticsearch.shardTimeout: 60000
 #pid.file: /var/run/kibana.pid
 
 # Enables you specify a file where Kibana stores log output.
-#logging.dest: stdout
+logging.dest: /home/elasticsearch/kibana.log
 
 # Set the value of this setting to true to suppress all logging output.
 #logging.silent: false
