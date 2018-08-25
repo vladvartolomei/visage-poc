@@ -1,0 +1,784 @@
+PUT all-vectors
+{
+  "settings" : {
+        "index" : {
+            "number_of_shards" : 1, 
+            "number_of_replicas" : 1 
+        }
+    },
+  "mappings": {
+    "vector": {
+      "properties": {
+        "D1": {
+          "type": "double"
+        },
+        "D2": {
+          "type": "double"
+        },
+        "D3": {
+          "type": "double"
+        },
+        "D4": {
+          "type": "double"
+        },
+        "D5": {
+          "type": "double"
+        },
+        "D6": {
+          "type": "double"
+        },
+        "D7": {
+          "type": "double"
+        },
+        "D8": {
+          "type": "double"
+        },
+        "D9": {
+          "type": "double"
+        },
+        "D10": {
+          "type": "double"
+        },
+        "D11": {
+          "type": "double"
+        },
+        "D12": {
+          "type": "double"
+        },
+        "D13": {
+          "type": "double"
+        },
+        "D14": {
+          "type": "double"
+        },
+        "D15": {
+          "type": "double"
+        },
+        "D16": {
+          "type": "double"
+        },
+        "D17": {
+          "type": "double"
+        },
+        "D18": {
+          "type": "double"
+        },
+        "D19": {
+          "type": "double"
+        },
+        "D20": {
+          "type": "double"
+        },
+        "D21": {
+          "type": "double"
+        },
+        "D22": {
+          "type": "double"
+        },
+        "D23": {
+          "type": "double"
+        },
+        "D24": {
+          "type": "double"
+        },
+        "D25": {
+          "type": "double"
+        },
+        "D26": {
+          "type": "double"
+        },
+        "D27": {
+          "type": "double"
+        },
+        "D28": {
+          "type": "double"
+        },
+        "D29": {
+          "type": "double"
+        },
+        "D30": {
+          "type": "double"
+        },
+        "D31": {
+          "type": "double"
+        },
+        "D32": {
+          "type": "double"
+        },
+        "D33": {
+          "type": "double"
+        },
+        "D34": {
+          "type": "double"
+        },
+        "D35": {
+          "type": "double"
+        },
+        "D36": {
+          "type": "double"
+        },
+        "D37": {
+          "type": "double"
+        },
+        "D38": {
+          "type": "double"
+        },
+        "D39": {
+          "type": "double"
+        },
+        "D40": {
+          "type": "double"
+        },
+        "D41": {
+          "type": "double"
+        },
+        "D42": {
+          "type": "double"
+        },
+        "D43": {
+          "type": "double"
+        },
+        "D44": {
+          "type": "double"
+        },
+        "D45": {
+          "type": "double"
+        },
+        "D46": {
+          "type": "double"
+        },
+        "D47": {
+          "type": "double"
+        },
+        "D48": {
+          "type": "double"
+        },
+        "D49": {
+          "type": "double"
+        },
+        "D50": {
+          "type": "double"
+        },
+        "D51": {
+          "type": "double"
+        },
+        "D52": {
+          "type": "double"
+        },
+        "D53": {
+          "type": "double"
+        },
+        "D54": {
+          "type": "double"
+        },
+        "D55": {
+          "type": "double"
+        },
+        "D56": {
+          "type": "double"
+        },
+        "D57": {
+          "type": "double"
+        },
+        "D58": {
+          "type": "double"
+        },
+        "D59": {
+          "type": "double"
+        },
+        "D60": {
+          "type": "double"
+        },
+        "D61": {
+          "type": "double"
+        },
+        "D62": {
+          "type": "double"
+        },
+        "D63": {
+          "type": "double"
+        },
+        "D64": {
+          "type": "double"
+        },
+        "D65": {
+          "type": "double"
+        },
+        "D66": {
+          "type": "double"
+        },
+        "D67": {
+          "type": "double"
+        },
+        "D68": {
+          "type": "double"
+        },
+        "D69": {
+          "type": "double"
+        },
+        "D70": {
+          "type": "double"
+        },
+        "D71": {
+          "type": "double"
+        },
+        "D72": {
+          "type": "double"
+        },
+        "D73": {
+          "type": "double"
+        },
+        "D74": {
+          "type": "double"
+        },
+        "D75": {
+          "type": "double"
+        },
+        "D76": {
+          "type": "double"
+        },
+        "D77": {
+          "type": "double"
+        },
+        "D78": {
+          "type": "double"
+        },
+        "D79": {
+          "type": "double"
+        },
+        "D80": {
+          "type": "double"
+        },
+        "D81": {
+          "type": "double"
+        },
+        "D82": {
+          "type": "double"
+        },
+        "D83": {
+          "type": "double"
+        },
+        "D84": {
+          "type": "double"
+        },
+        "D85": {
+          "type": "double"
+        },
+        "D86": {
+          "type": "double"
+        },
+        "D87": {
+          "type": "double"
+        },
+        "D88": {
+          "type": "double"
+        },
+        "D89": {
+          "type": "double"
+        },
+        "D90": {
+          "type": "double"
+        },
+        "D91": {
+          "type": "double"
+        },
+        "D92": {
+          "type": "double"
+        },
+        "D93": {
+          "type": "double"
+        },
+        "D94": {
+          "type": "double"
+        },
+        "D95": {
+          "type": "double"
+        },
+        "D96": {
+          "type": "double"
+        },
+        "D97": {
+          "type": "double"
+        },
+        "D98": {
+          "type": "double"
+        },
+        "D99": {
+          "type": "double"
+        },
+        "D100": {
+          "type": "double"
+        },
+        "D101": {
+          "type": "double"
+        },
+        "D102": {
+          "type": "double"
+        },
+        "D103": {
+          "type": "double"
+        },
+        "D104": {
+          "type": "double"
+        },
+        "D105": {
+          "type": "double"
+        },
+        "D106": {
+          "type": "double"
+        },
+        "D107": {
+          "type": "double"
+        },
+        "D108": {
+          "type": "double"
+        },
+        "D109": {
+          "type": "double"
+        },
+        "D110": {
+          "type": "double"
+        },
+        "D111": {
+          "type": "double"
+        },
+        "D112": {
+          "type": "double"
+        },
+        "D113": {
+          "type": "double"
+        },
+        "D114": {
+          "type": "double"
+        },
+        "D115": {
+          "type": "double"
+        },
+        "D116": {
+          "type": "double"
+        },
+        "D117": {
+          "type": "double"
+        },
+        "D118": {
+          "type": "double"
+        },
+        "D119": {
+          "type": "double"
+        },
+        "D120": {
+          "type": "double"
+        },
+        "D121": {
+          "type": "double"
+        },
+        "D122": {
+          "type": "double"
+        },
+        "D123": {
+          "type": "double"
+        },
+        "D124": {
+          "type": "double"
+        },
+        "D125": {
+          "type": "double"
+        },
+        "D126": {
+          "type": "double"
+        },
+        "D127": {
+          "type": "double"
+        },
+        "D128": {
+          "type": "double"
+        },
+        "D129": {
+          "type": "double"
+        },
+        "D130": {
+          "type": "double"
+        },
+        "D131": {
+          "type": "double"
+        },
+        "D132": {
+          "type": "double"
+        },
+        "D133": {
+          "type": "double"
+        },
+        "D134": {
+          "type": "double"
+        },
+        "D135": {
+          "type": "double"
+        },
+        "D136": {
+          "type": "double"
+        },
+        "D137": {
+          "type": "double"
+        },
+        "D138": {
+          "type": "double"
+        },
+        "D139": {
+          "type": "double"
+        },
+        "D140": {
+          "type": "double"
+        },
+        "D141": {
+          "type": "double"
+        },
+        "D142": {
+          "type": "double"
+        },
+        "D143": {
+          "type": "double"
+        },
+        "D144": {
+          "type": "double"
+        },
+        "D145": {
+          "type": "double"
+        },
+        "D146": {
+          "type": "double"
+        },
+        "D147": {
+          "type": "double"
+        },
+        "D148": {
+          "type": "double"
+        },
+        "D149": {
+          "type": "double"
+        },
+        "D150": {
+          "type": "double"
+        },
+        "D151": {
+          "type": "double"
+        },
+        "D152": {
+          "type": "double"
+        },
+        "D153": {
+          "type": "double"
+        },
+        "D154": {
+          "type": "double"
+        },
+        "D155": {
+          "type": "double"
+        },
+        "D156": {
+          "type": "double"
+        },
+        "D157": {
+          "type": "double"
+        },
+        "D158": {
+          "type": "double"
+        },
+        "D159": {
+          "type": "double"
+        },
+        "D160": {
+          "type": "double"
+        },
+        "D161": {
+          "type": "double"
+        },
+        "D162": {
+          "type": "double"
+        },
+        "D163": {
+          "type": "double"
+        },
+        "D164": {
+          "type": "double"
+        },
+        "D165": {
+          "type": "double"
+        },
+        "D166": {
+          "type": "double"
+        },
+        "D167": {
+          "type": "double"
+        },
+        "D168": {
+          "type": "double"
+        },
+        "D169": {
+          "type": "double"
+        },
+        "D170": {
+          "type": "double"
+        },
+        "D171": {
+          "type": "double"
+        },
+        "D172": {
+          "type": "double"
+        },
+        "D173": {
+          "type": "double"
+        },
+        "D174": {
+          "type": "double"
+        },
+        "D175": {
+          "type": "double"
+        },
+        "D176": {
+          "type": "double"
+        },
+        "D177": {
+          "type": "double"
+        },
+        "D178": {
+          "type": "double"
+        },
+        "D179": {
+          "type": "double"
+        },
+        "D180": {
+          "type": "double"
+        },
+        "D181": {
+          "type": "double"
+        },
+        "D182": {
+          "type": "double"
+        },
+        "D183": {
+          "type": "double"
+        },
+        "D184": {
+          "type": "double"
+        },
+        "D185": {
+          "type": "double"
+        },
+        "D186": {
+          "type": "double"
+        },
+        "D187": {
+          "type": "double"
+        },
+        "D188": {
+          "type": "double"
+        },
+        "D189": {
+          "type": "double"
+        },
+        "D190": {
+          "type": "double"
+        },
+        "D191": {
+          "type": "double"
+        },
+        "D192": {
+          "type": "double"
+        },
+        "D193": {
+          "type": "double"
+        },
+        "D194": {
+          "type": "double"
+        },
+        "D195": {
+          "type": "double"
+        },
+        "D196": {
+          "type": "double"
+        },
+        "D197": {
+          "type": "double"
+        },
+        "D198": {
+          "type": "double"
+        },
+        "D199": {
+          "type": "double"
+        },
+        "D200": {
+          "type": "double"
+        },
+        "D201": {
+          "type": "double"
+        },
+        "D202": {
+          "type": "double"
+        },
+        "D203": {
+          "type": "double"
+        },
+        "D204": {
+          "type": "double"
+        },
+        "D205": {
+          "type": "double"
+        },
+        "D206": {
+          "type": "double"
+        },
+        "D207": {
+          "type": "double"
+        },
+        "D208": {
+          "type": "double"
+        },
+        "D209": {
+          "type": "double"
+        },
+        "D210": {
+          "type": "double"
+        },
+        "D211": {
+          "type": "double"
+        },
+        "D212": {
+          "type": "double"
+        },
+        "D213": {
+          "type": "double"
+        },
+        "D214": {
+          "type": "double"
+        },
+        "D215": {
+          "type": "double"
+        },
+        "D216": {
+          "type": "double"
+        },
+        "D217": {
+          "type": "double"
+        },
+        "D218": {
+          "type": "double"
+        },
+        "D219": {
+          "type": "double"
+        },
+        "D220": {
+          "type": "double"
+        },
+        "D221": {
+          "type": "double"
+        },
+        "D222": {
+          "type": "double"
+        },
+        "D223": {
+          "type": "double"
+        },
+        "D224": {
+          "type": "double"
+        },
+        "D225": {
+          "type": "double"
+        },
+        "D226": {
+          "type": "double"
+        },
+        "D227": {
+          "type": "double"
+        },
+        "D228": {
+          "type": "double"
+        },
+        "D229": {
+          "type": "double"
+        },
+        "D230": {
+          "type": "double"
+        },
+        "D231": {
+          "type": "double"
+        },
+        "D232": {
+          "type": "double"
+        },
+        "D233": {
+          "type": "double"
+        },
+        "D234": {
+          "type": "double"
+        },
+        "D235": {
+          "type": "double"
+        },
+        "D236": {
+          "type": "double"
+        },
+        "D237": {
+          "type": "double"
+        },
+        "D238": {
+          "type": "double"
+        },
+        "D239": {
+          "type": "double"
+        },
+        "D240": {
+          "type": "double"
+        },
+        "D241": {
+          "type": "double"
+        },
+        "D242": {
+          "type": "double"
+        },
+        "D243": {
+          "type": "double"
+        },
+        "D244": {
+          "type": "double"
+        },
+        "D245": {
+          "type": "double"
+        },
+        "D246": {
+          "type": "double"
+        },
+        "D247": {
+          "type": "double"
+        },
+        "D248": {
+          "type": "double"
+        },
+        "D249": {
+          "type": "double"
+        },
+        "D250": {
+          "type": "double"
+        },
+        "D251": {
+          "type": "double"
+        },
+        "D252": {
+          "type": "double"
+        },
+        "D253": {
+          "type": "double"
+        },
+        "D254": {
+          "type": "double"
+        },
+        "D255": {
+          "type": "double"
+        },
+        "timestamp": {
+          "type": "date",
+          "format": "strict_date_optional_time||epoch_millis"
+        }
+      }
+    }
+  }
+}
